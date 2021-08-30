@@ -1,0 +1,72 @@
+html, body, header, nav, a, div, img, p, h1, h2, footer {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+header, footer {
+    background-color: #F1A436;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+}
+header a, footer a {
+    text-decoration: none;
+    color: #000000;
+    margin: 0 10px;
+}
+.mainImage {
+    background-image: url(../images/hero-image.jpg);
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainImageText {
+    background-color: #ffffff;
+    position: relative;
+    top: 100px;
+    padding: 5px 10px;
+}
+.contentDiv {
+    padding: 1.5em 7%;
+    margin: 0 auto;
+}
+.textContent {
+    margin-bottom: 20px;
+}
+.textContent h2 { 
+    font-size: 2em;
+    margin-bottom: .5em;
+}
+.textContent p {
+    line-height: 1.5em;
+    font-size: 1.2em;
+}
+.imagesDiv {
+    display: flex;
+    justify-content: space-between;
+}
+.imagesDiv img {
+    height: 200px;
+}
+.imagesDiv p {
+    text-align: center;
+    padding: 5px;
+}
+.healthyRecipes {
+    background-color: #dadfea;
+}
+.healthImage p {
+    background-color: #ffffff;
+}
+.whereToEatText:last-child {
+    padding-top: 10px;
+}
+footer {
+    padding: 30px 5%;
+}
+footer a {
+    font-size: .75em;
+}
