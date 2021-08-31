@@ -1,0 +1,80 @@
+.recipeImage {
+    background-image: url(../images/bengal-burger.jpg);
+    height: 500px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0
+}
+.recipeImageText {
+    background-color: #ffffff;
+    position: relative;
+    top: 100px;
+    padding: 5px 10px;
+}
+.timeDiv {
+    background-color: #dadfea;
+    margin: 0;
+    padding: 10px 5% 30px 5%;
+}
+.timeDiv h3 {
+    font-size: 1.5em;
+}
+.timeBreakdown td {
+    
+}
+.bold {
+    font-weight: bold;
+}
+.titleDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.titleDiv h2 {
+    font-size: 2.5em;
+    margin-top: 30px;
+}
+.starReview span {
+    color: #A63223;
+    font-size: 1.2em;
+}
+.buttons {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+.buttons button {
+    background-color: #A63223;
+    color: #ffffff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 20px;
+    margin: 0 10px;
+}
+.buttons i {
+    font-size: 1.2em;
+    color: #9D9D9D
+}
+.reviewQuote {
+    width: 60%;
+    margin: 20px auto;
+    font-size: 1.5em;
+    font-weight: bold;
+    background-color: #EDF0F4;
+    padding: 40px 10%;
+}
+.mainRecipe {
+    display: flex;
+    justify-content: space-evenly;
+}
+.mainRecipe h3 {
+    font-size: 1.5em;
+}
+.directions {
+    width: 35%;
+}
+.directions li {
+    margin-bottom: 20px;
+}

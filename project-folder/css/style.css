@@ -17,7 +17,7 @@ header a, footer a {
 }
 .mainImage {
     background-image: url(../images/hero-image.jpg);
-    height: 400px;
+    height: 500px;
     background-size: cover;
     display: flex;
     justify-content: center;
