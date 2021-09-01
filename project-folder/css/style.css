@@ -28,6 +28,7 @@ header a, footer a {
     position: relative;
     top: 100px;
     padding: 5px 10px;
+    border-radius: 5px;
 }
 .contentDiv {
     padding: 1.5em 7%;
@@ -48,8 +49,12 @@ header a, footer a {
     display: flex;
     justify-content: space-between;
 }
-.imagesDiv img {
-    height: 200px;
+.threeImages {
+    overflow: hidden;
+}
+.threeImages img{
+    width: 300px;
+    height: 250px;
 }
 .imagesDiv p {
     text-align: center;
@@ -57,6 +62,11 @@ header a, footer a {
 }
 .healthyRecipes {
     background-color: #dadfea;
+}
+.healthImage img{
+    height: 250px;
+    width: 250px;
+    overflow: hidden;
 }
 .healthImage p {
     background-color: #ffffff;

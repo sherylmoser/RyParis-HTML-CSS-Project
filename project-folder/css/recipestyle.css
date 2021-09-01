@@ -10,8 +10,9 @@
 .recipeImageText {
     background-color: #ffffff;
     position: relative;
-    top: 100px;
-    padding: 5px 10px;
+    top: 150px;
+    padding: 10px 25px;
+    border-radius: 5px;
 }
 .timeDiv {
     background-color: #dadfea;
@@ -21,8 +22,13 @@
 .timeDiv h3 {
     font-size: 1.5em;
 }
-.timeBreakdown td {
-    
+.timeBreakdown {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.timeBreakdown p{
+    width: 20%;
 }
 .bold {
     font-weight: bold;
