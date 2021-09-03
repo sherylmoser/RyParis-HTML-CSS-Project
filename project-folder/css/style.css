@@ -71,18 +71,32 @@ header a, footer a {
     text-align: center;
     padding: 5px;
 }
-.breakfast {
-    
+.breakfast img {
+    position: relative;
+    right: 65px;
+}
+.veggie img {
+    position: relative;
+    left: 20px;
 }
 .healthyRecipes {
     background-color: #dadfea;
 }
-.healthImage img{
-    height: 250px;
-    width: 250px;
-    overflow: hidden;
+.healthImageParent {
+    display: flex;
+    flex-direction: column;
 }
-.healthImage p {
+.healthImage {
+    overflow: hidden;
+    height: 225px;
+    width: 225px;
+    position: relative;
+}
+.healthImage img{
+    height: 100%;
+    position: absolute;
+}
+.healthText {
     background-color: #ffffff;
 }
 .whereImage img {

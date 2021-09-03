@@ -17,18 +17,19 @@
 .timeDiv {
     background-color: #dadfea;
     margin: 0;
-    padding: 10px 5% 30px 5%;
+    padding: 10px 10% 30px 10%;
 }
 .timeDiv h3 {
     font-size: 1.5em;
 }
 .timeBreakdown {
-    width: 80%;
+    width: 90%;
     display: flex;
     flex-wrap: wrap;
 }
-.timeBreakdown p{
-    width: 20%;
+.timeBreakdown div{
+    width: 250px;
+    margin-bottom: 15px;
 }
 .bold {
     font-weight: bold;
