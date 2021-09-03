@@ -49,16 +49,30 @@ header a, footer a {
     display: flex;
     justify-content: space-between;
 }
+.threeImagesParent {
+    display: flex;
+    flex-direction: column;
+}
 .threeImages {
     overflow: hidden;
+    height: 250px;
+    width: 300px;
+    position: relative;
 }
 .threeImages img{
-    width: 300px;
-    height: 250px;
+    height: 100%;
+    position: absolute;
+}
+.threeImages p {
+    position: absolute;
+    bottom: 0;
 }
 .imagesDiv p {
     text-align: center;
     padding: 5px;
+}
+.breakfast {
+    
 }
 .healthyRecipes {
     background-color: #dadfea;
@@ -71,8 +85,8 @@ header a, footer a {
 .healthImage p {
     background-color: #ffffff;
 }
-.whereToEatText:last-child {
-    padding-top: 10px;
+.whereImage img {
+    border: 5px solid #dadfea;
 }
 footer {
     padding: 30px 5%;
